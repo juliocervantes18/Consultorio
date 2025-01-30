@@ -1,7 +1,5 @@
 
-Instalación.
-
-configuración. 
+Instalación y configuración. 
 
 Uso del programa. 
 
