@@ -12,13 +12,26 @@ public class Consultorio implements BaseDatos {
         citas = new ArrayList<>();
     }
 
+
+
     public void agregarDoctor(Doctor doctor) {
         doctores.add(doctor);
 
     }
+    public void agregarPacientes(Paciente paciente){
+        pacientes.add(paciente);
+    }
+    public void crearCita(Cita cita){
+        citas.add(cita);
+    }
 
     @Override
     public void guardardatos() {
+
+    }
+
+    @Override
+    public void cargardatos() {
 
     }
 }
