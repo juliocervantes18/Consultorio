@@ -11,5 +11,7 @@ public class Consultorio implements BaseDatos {
         pacientes = new ArrayList<>();
         citas = new ArrayList<>();
     }
+    public void agregarDoctor(Doctor doctor) {
+        doctores.add(doctor);
 
 }
