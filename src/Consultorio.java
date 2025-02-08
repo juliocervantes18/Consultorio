@@ -1,3 +1,4 @@
-public class Consultorio {
+public class Consultorio implements BaseDatos {
+    
 
 }
