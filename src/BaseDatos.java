@@ -1,5 +1,4 @@
 public interface BaseDatos {
-    void guardardatos();
-    void cargardatos();
-
+    void guardarDatos();
+    void cargarDatos();
 }
