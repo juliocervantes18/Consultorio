@@ -5,17 +5,14 @@ public class Persona {
     public Persona(int id, String nombre) {
         this.id = id;
         this.nombre = nombre;
-        public int getId () {
-            return id;
-        }
+    }
 
-        public String getNombre () {
-            return nombre;
+    public int getId() {
+        return id;
+    }
 
-        }
-        public String getNombre () {
-            return nombre;
-        }
+    public String getNombre() {
+        return nombre;
     }
 
 }

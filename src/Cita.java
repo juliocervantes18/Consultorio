@@ -14,7 +14,7 @@ public class Cita {
         this.doctor = doctor;
         this.paciente = paciente;
     }
-public getDetallesCita(){
+public Object getDetallesCita(){
         return "Identificacion de la Cita: "+ idCita + "Fecha: "+ fechahora + "Motivo de la cita: " + motivo + "Doctor adicinado a " + doctor.getNombre() + paciente + "Paciente " + paciente.getNombre();
     }
 
