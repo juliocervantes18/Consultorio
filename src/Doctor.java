@@ -9,4 +9,9 @@ public class Doctor extends Persona {
     public String getEspecialidad() {
         return especialidad;
     }
+    @Override
+    public String toString() {
+        return getId() + "," + getNombre() + "," + especialidad;
+    }
 }
+
