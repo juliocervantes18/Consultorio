@@ -9,4 +9,11 @@ public class Paciente extends Persona {
     public String getHistorialMedico() {
         return historialMedico;
     }
+
+    public String toString() {
+        return getId() + "," + getNombre() + "," + historialMedico;
+
+    }
 }
+
+
