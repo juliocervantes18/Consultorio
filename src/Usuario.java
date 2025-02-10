@@ -7,7 +7,8 @@ public class Usuario {
         this.contraseña = contraseña;
     }
 
-    public boolean validarAcceso(String user, String pass) {
+    public boolean validaracceso(String user, String pass) {
         return this.usuario.equals(user) && this.contraseña.equals(pass);
     }
 }
+
